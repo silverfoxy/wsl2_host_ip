@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\baminazad\\Documents\\wslw_host_ip\\wslw_host_ip.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\baminazad\\Documents\\wslw_host_ip\\wslw_host_ip.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\baminazad\\Documents\\wslw_host_ip\\wslw_host_ip.csproj",
+        "projectName": "wslw_host_ip",
+        "projectPath": "C:\\Users\\baminazad\\Documents\\wslw_host_ip\\wslw_host_ip.csproj",
+        "packagesPath": "C:\\Users\\baminazad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\baminazad\\Documents\\wslw_host_ip\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\baminazad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.EventLog": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
