@@ -3,7 +3,7 @@ This is a simple script that will add an entry "wsl2.host" within Windows hosts 
 
 # Intro
 
-This project is part of my blog post about setting up PHP development environment on Windows while debugging PHP from Linux over WSL2. 
+This project is part of my blog post about setting up PHP development environment on Windows while debugging PHP from Linux over WSL2 [(https://www.silverf0x00.com/setting-up-xdebug-for-phpstorm-on-windows-wsl2/)](https://www.silverf0x00.com/setting-up-xdebug-for-phpstorm-on-windows-wsl2/). 
 One of the requirements of this setup is to give the IP address of Windows WSL2 interface to XDebug on Linux. 
 This IP address is subject to change everytime the machine is rebooted. 
 This will then require an update to IDE configuration update to use the new IP address.
